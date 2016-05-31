@@ -1,0 +1,31 @@
+{
+  "name": "victory-core-native",
+  "version": "0.1.0",
+  "description": "Shared libraries and components for Victory",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FormidableLabs/victory-core-native.git"
+  },
+  "author": "Vakhtang Sidamonidze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormidableLabs/victory-core-native/issues"
+  },
+  "homepage": "https://github.com/FormidableLabs/victory-core-native#readme",
+  "scripts": {
+    "start": "./node_modules/react-native/packager/packager.sh start --reset-cache --projectRoots `pwd`,`pwd`/demo"
+  },
+  "dependencies": {
+    "react": "15.0.2",
+    "react-native-svg": "^2.1.0",
+    "victory-core": "git+https://github.com/vakhtang/victory-core.git#native"
+  },
+  "devDependencies": {
+    "react-native": "^0.26.2"
+  }
+}
