@@ -23,7 +23,7 @@
   "dependencies": {
     "react": "15.0.2",
     "react-native-svg": "^2.1.0",
-    "victory-core": "git+https://github.com/vakhtang/victory-core.git#native"
+    "victory-core": "git+https://github.com/FormidableLabs/victory-core.git#supportNative"
   },
   "devDependencies": {
     "react-native": "^0.26.2"
