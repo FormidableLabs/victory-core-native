@@ -37,6 +37,17 @@ class Demo extends Component {
               fill: "black"
             }}
           />
+          <VictoryLabel
+            x={150}
+            y={200}
+            text="wow"
+            angle={"45"}
+            textAnchor="middle"
+            style={{
+              fontSize: 25,
+              fill: "black"
+            }}
+          />
         </Svg>
       </ScrollView>
     );
