@@ -21,11 +21,11 @@
     "start": "./node_modules/react-native/packager/packager.sh start --reset-cache --projectRoots `pwd`,`pwd`/demo"
   },
   "dependencies": {
-    "react": "15.0.2",
-    "react-native-svg": "^2.1.0",
-    "victory-core": "git+https://github.com/FormidableLabs/victory-core.git#supportNative"
+    "react": "15.1.0",
+    "react-native-svg": "^2.2.0",
+    "victory-core": "git+https://github.com/FormidableLabs/victory-core.git#native"
   },
   "devDependencies": {
-    "react-native": "^0.26.2"
+    "react-native": "^0.27.0"
   }
 }
