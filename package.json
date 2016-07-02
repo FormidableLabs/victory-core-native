@@ -27,6 +27,6 @@
     "victory-core": "^4.3.0"
   },
   "devDependencies": {
-    "react-native": "^0.27.0"
+    "react-native": "~0.27.0"
   }
 }
