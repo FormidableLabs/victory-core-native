@@ -9,9 +9,9 @@ import React, { Component } from "react";
 import {
   AppRegistry,
   ScrollView,
-  StyleSheet,
+  StyleSheet
 } from "react-native";
-import Svg, { Text } from "react-native-svg";
+import Svg from "react-native-svg";
 import { VictoryLabel } from "../lib";
 
 const styles = StyleSheet.create({
