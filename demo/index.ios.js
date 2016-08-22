@@ -32,8 +32,14 @@ class Demo extends Component {
             text="Hello"
             textAnchor="middle"
             style={{
-              fontSize: 25,
-              fill: "black"
+              fontSize: "14px",
+              letterSpacing: "normal",
+              fontFamily: "'Gill Sans', 'Gill Sans MT', 'Ser­avek', 'Trebuchet MS', sans-serif",
+              fill: "black",
+              stroke: "transparent",
+              padding: 8,
+              textAnchor: "start",
+              strokeWidth: 0
             }}
           />
           <VictoryLabel
