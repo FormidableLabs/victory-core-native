@@ -1,6 +1,6 @@
 {
   "name": "victory-core-native",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shared libraries and components for Victory",
   "main": "lib/index.js",
   "files": [
@@ -42,7 +42,7 @@
     "react-native-svg-mock": "^1.0.2"
   },
   "peerDependencies": {
-    "react-native-svg": "~4.0.0"
+    "react-native-svg": "^4.1.0"
   },
   "dependencies": {
     "lodash.omit": "^4.5.0",
