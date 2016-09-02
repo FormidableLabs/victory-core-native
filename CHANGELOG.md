@@ -1,5 +1,9 @@
 # VictoryChartNative Changelog
 
+## 2.0.0 (2016-09-01)
+
+- Export base components (_i.e._ `Bar`, `Area` etc.)
+
 ## 1.1.0 (2016-08-22)
 
 - Fix semver range for `react-native-svg`
