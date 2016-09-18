@@ -54,13 +54,19 @@ class Demo extends Component {
             }}
           />
           <VictoryTooltip
+            x={100}
+            y={300}
+            text={"Wow!\nTooltips!"}
+            active={true}
+          />
+          <VictoryTooltip
             x={150}
             y={300}
             text={"Wow!\nTooltips!"}
             style={{
               fontSize: 15
             }}
-            active={true}
+            active={false}
           />
         </Svg>
       </ScrollView>
