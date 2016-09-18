@@ -4,10 +4,12 @@ import { expect } from "chai";
 
 import VictoryContainer from "../../lib/components/victory-container";
 import VictoryLabel from "../../lib/components/victory-label";
+import VictoryTooltip from "../../lib/components/victory-tooltip";
 
 const components = [
   { component: VictoryContainer, name: "VictoryContainer" },
-  { component: VictoryLabel, name: "VictoryLabel" }
+  { component: VictoryLabel, name: "VictoryLabel" },
+  { component: VictoryTooltip, name: "VictoryTooltip" }
 ];
 
 describe("Default render", () => {
