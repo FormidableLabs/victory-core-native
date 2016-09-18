@@ -1,5 +1,9 @@
 # VictoryChartNative Changelog
 
+## 2.1.0 (2016-09-18)
+
+- Adds support for VictoryTooltip
+
 ## 2.0.0 (2016-09-01)
 
 - Export base components (_i.e._ `Bar`, `Area` etc.)
