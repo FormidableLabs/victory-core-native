@@ -11,7 +11,7 @@ import {
   StyleSheet
 } from "react-native";
 import Svg from "react-native-svg";
-import { VictoryLabel, VictoryTooltip } from "../lib";
+import { VictoryLabel, VictoryTooltip, VictoryContainer } from "../lib";
 
 const styles = StyleSheet.create({
   container: {
@@ -53,11 +53,11 @@ class Demo extends Component {
               fill: "black"
             }}
           />
-          <VictoryTooltip
+          <VictoryTooltip  active
             x={100}
             y={300}
             text={"Wow!\nTooltips!"}
-            active={true}
+            renderInPortal={false}
           />
           <VictoryTooltip
             x={150}
@@ -66,9 +66,18 @@ class Demo extends Component {
             style={{
               fontSize: 15
             }}
+            renderInPortal={false}
             active={false}
           />
         </Svg>
+        <VictoryContainer>
+          <VictoryTooltip  active
+            renderInPortal={false}
+            x={100}
+            y={300}
+            text={"Wow!\nTooltips!"}
+          />
+        </VictoryContainer>
       </ScrollView>
     );
   }
