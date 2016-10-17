@@ -25,7 +25,7 @@ class Demo extends Component {
   render() {
     return (
       <ScrollView contentContainerStyle={styles.container}>
-        <Svg height="500" width="300">
+        <Svg height="400" width="300">
           <VictoryLabel
             x={150}
             y={150}
@@ -57,7 +57,6 @@ class Demo extends Component {
             x={100}
             y={300}
             text={"Wow!\nTooltips!"}
-            renderInPortal={false}
           />
           <VictoryTooltip active
             x={150}
@@ -68,7 +67,16 @@ class Demo extends Component {
             }}
           />
         </Svg>
-
+        <VictoryContainer height={400} width={300}>
+          <VictoryTooltip active
+            x={150}
+            y={100}
+            text={"Wow!\nTooltips!"}
+            style={{
+              fontSize: 15
+            }}
+          />
+        </VictoryContainer>
       </ScrollView>
     );
   }
