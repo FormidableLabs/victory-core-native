@@ -53,31 +53,22 @@ class Demo extends Component {
               fill: "black"
             }}
           />
-          <VictoryTooltip  active
+          <VictoryTooltip active
             x={100}
             y={300}
             text={"Wow!\nTooltips!"}
             renderInPortal={false}
           />
-          <VictoryTooltip
+          <VictoryTooltip active
             x={150}
-            y={300}
+            y={350}
             text={"Wow!\nTooltips!"}
             style={{
               fontSize: 15
             }}
-            renderInPortal={false}
-            active={false}
           />
         </Svg>
-        <VictoryContainer>
-          <VictoryTooltip  active
-            renderInPortal={false}
-            x={100}
-            y={300}
-            text={"Wow!\nTooltips!"}
-          />
-        </VictoryContainer>
+
       </ScrollView>
     );
   }
