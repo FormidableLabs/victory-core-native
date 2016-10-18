@@ -1,5 +1,11 @@
 # VictoryChartNative Changelog
 
+## 3.0.0 (2016-10-18)
+
+- Adds support for VictoryPortal
+- Adds support for VictoryClipComponent
+- Refactors primitive components
+
 ## 2.1.0 (2016-09-18)
 
 - Adds support for VictoryTooltip
