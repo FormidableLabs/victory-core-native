@@ -1,5 +1,11 @@
 # VictoryChartNative Changelog
 
+## 4.0.0 (2016-12-14)
+
+- Changes how transitions and animations operate for continuous data
+- Adds support for className in primitive components
+- Moves react and react-native to peerDependencies
+
 ## 3.0.0 (2016-10-18)
 
 - Adds support for VictoryPortal
@@ -34,7 +40,7 @@
 ## 0.1.5 (2016-07-06)
 
 - Initial working version
-- Known issues: 
+- Known issues:
   - Transitions are not working perfectly
   - Events are not supported
   - Poor Android support
