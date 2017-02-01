@@ -49,6 +49,6 @@
   },
   "dependencies": {
     "lodash.omit": "^4.5.0",
-    "victory-core": "^10.0.2"
+    "victory-core": "^13.0.0"
   }
 }
